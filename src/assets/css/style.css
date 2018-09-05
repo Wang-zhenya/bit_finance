@@ -1,0 +1,47 @@
+
+/*css初始化*/
+*{
+	margin: 0;
+	padding: 0;
+}
+input {
+	border: 0 none;
+	outline: none;
+}
+/*版心*/
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+img {
+	vertical-align: middle;
+	border: 0 none;
+}
+a {
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+li {
+	list-style: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+i,em {
+	font-style: normal;
+}
